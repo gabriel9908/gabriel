@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5500">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <style>
+    body {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+  </style>  
+  <title>Página de Música</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Adicionando Grid CSS */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.music {
+  border: 1px solid #ccc;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.music:hover {
+  transform: translateY(-5px);
+}
+
+/* Adicionando Flexbox CSS */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Adicionando pseudoclasses */
+nav ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Adicionando animação CSS */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer {
+  animation: pulse 1s infinite;
+}
+
+</style>
+<body>
+
+  <header>
+    <div class="container">
+        <h1>Musicas Livres para distrações do usuario </h1>
+      
+      </nav>
+      <input type="text" id="search" placeholder="Pesquisar...">
+    </div>
+  </header>
+
+  <main class="grid-container">
+    <section class="music">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1633823769&color=%23ee0101&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djjv33" title="DJ JV DO SG" target="_blank" style="color: #cccccc; text-decoration: none;">DJ JV DO SG</a> · <a href="https://soundcloud.com/djjv33/jota-wv" title="NOITE DOS PERDIDOS - MC RODRIGO DO CN, MC DUDU SK - DJ JV DO SG, DJ WV" target="_blank" style="color: #cccccc; text-decoration: none;">NOITE DOS PERDIDOS - MC RODRIGO DO CN, MC DUDU SK - DJ JV DO SG, DJ WV</a></div>
+
+      <h2>NOITE DOS PERDIDOS - MC RODRIGO DO CN, MC DUDU SK - DJ JV DO SG, DJ WV</h2>
+      
+    </section>
+    
+    <section class="music">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1644621621&color=%2317b7df&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mcrickofc" title="MC RICK" target="_blank" style="color: #cccccc; text-decoration: none;">MC RICK</a> · <a href="https://soundcloud.com/mcrickofc/ela-nao-presta-mc-rick-e-mc-ph" title="ELA NAO PRESTA-  MC RICK E MC PH, GORDAO DO PC" target="_blank" style="color: #cccccc; text-decoration: none;">ELA NAO PRESTA-  MC RICK E MC PH, GORDAO DO PC</a></div>
+      <h2>ELA NAO PRESTA</h2>
+      <p>MC RICK E MC PH, GORDAO DO PC</p>
+    </section>
+    
+    <section class="music">
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1629954411&color=%23218613&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pedrin-koobiz" title="PEDRX TRAP" target="_blank" style="color: #cccccc; text-decoration: none;">PEDRX TRAP</a> · <a href="https://soundcloud.com/pedrin-koobiz/azevedo-ft-mc-cabelinho-de" title="Azevedo ft. MC Cabelinho - De Marola (prod. Dallas, Skinny Beats )" target="_blank" style="color: #cccccc; text-decoration: none;">Azevedo ft. MC Cabelinho - De Marola (prod. Dallas, Skinny Beats )</a></div>
+      <h2>Azevedo ft. MC Cabelinho</h2>
+      <p>De Marola (prod. Dallas, Skinny Beats )</p>
+    </section>
+    
+        <section class="music">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/47596170&color=%23218613&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rikrdinhodj" title="Rikrdinhodj" target="_blank" style="color: #cccccc; text-decoration: none;">Rikrdinhodj</a> · <a href="https://soundcloud.com/rikrdinhodj/dance-anos-90" title="Dance Anos 90" target="_blank" style="color: #cccccc; text-decoration: none;">Dance Anos 90</a></div>
+          <h2>Dance Anos 90 </h2>
+          <p>rickrdinhoDj</p>
+        </section>
+        
+        <section class="music">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1655305275&color=%23dcce05&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gordaotrembala" title="MUSICAS DO TIKTOK OFICIAL" target="_blank" style="color: #cccccc; text-decoration: none;">MUSICAS DO TIKTOK OFICIAL</a> · <a href="https://soundcloud.com/gordaotrembala/playlist-caldeirao-do-funk-carioca-gordao-trem-bala-melhores-lancamentos-do-tik-tok" title="SEQUÊNCIA DAS MAIS  TOCADA DAS FAVELAS 2024 Vs MELHORES MUSICAS DO TIK TOK  [ FUNK CARIOCA NO TOPO]" target="_blank" style="color: #cccccc; text-decoration: none;">SEQUÊNCIA DAS MAIS  TOCADA DAS FAVELAS 2024 Vs MELHORES MUSICAS DO TIK TOK  [ FUNK CARIOCA NO TOPO]</a></div>          <h2>Título da Música</h2>
+         <h2>SEQUÊNCIA DAS MAIS TOCADA DAS FAVELAS 2024 Vs MELHORES MUSICAS DO TIK TOK [ FUNK CARIOCA NO TOPO]</h2>
+            <p>Musicas do TikTok Oficial </p>
+        </section>
+        
+        <section class="music">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336962110&color=%23dcce05&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/scatman-john-official" title="Scatman John" target="_blank" style="color: #cccccc; text-decoration: none;">Scatman John</a> · <a href="https://soundcloud.com/scatman-john-official/scatman-ski-ba-bop-ba-dop-5" title="Scatman (ski-ba-bop-ba-dop-bop)" target="_blank" style="color: #cccccc; text-decoration: none;">Scatman (ski-ba-bop-ba-dop-bop)</a></div>
+          <h2>Scatman (ski-ba-bop-ba-dop-bop)
+        </h2>
+          <p>Scatman John 
+        </p>
+        </section>
+
+    
+      
+<section class="music">
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34375465&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rodolfoavelino" title="rodolfoavelino" target="_blank" style="color: #cccccc; text-decoration: none;">rodolfoavelino</a> · <a href="https://soundcloud.com/rodolfoavelino/set-flash-house-anos-80-e-90" title="Set Flash House (anos 80 e 90)" target="_blank" style="color: #cccccc; text-decoration: none;">Set Flash House (anos 80 e 90)</a></div>
+        <a href="https://on.soundcloud.com/WpKfMNgNFrTzuzK36" title="Dance Anos 90 " target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="" title="" target="_blank" style="color: #cccccc; text-decoration: none;"></a>
+    </div>
+    <h2>set flash back dance </h2>
+   
+</section>
+
+    
+        <section class="music">
+           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50512169&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dj-fabio-morales-br" title="FABIOMORALESBRAZIL" target="_blank" style="color: #cccccc; text-decoration: none;">FABIOMORALESBRAZIL</a> · <a href="https://soundcloud.com/dj-fabio-morales-br/dance-music-anos-90" title="DANCE MUSIC anos 90" target="_blank" style="color: #cccccc; text-decoration: none;">DANCE MUSIC anos 90</a></div>
+
+          
+          <h2>Dance Music Anos 90
+        </h2>
+          <p>Fabio morales Brasil 
+        </p>
+        </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Gabriel Santos Do Nascimento </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<script>
+    const searchInput = document.getElementById('search');
+const musicSections = document.querySelectorAll('.music');
+
+searchInput.addEventListener('keyup', function() {
+  const searchTerm = searchInput.value.toLowerCase();
+
+  musicSections.forEach(section => {
+    const title = section.querySelector('h2').textContent.toLowerCase();
+    const artist = section.querySelector('p').textContent.toLowerCase();
+
+    if (title.includes(searchTerm) || artist.includes(searchTerm)) {
+      section.style.display = 'block';
+    } else {
+      section.style.display = 'none';
+    }
+    <script>
+        fetch('https://developers.soundcloud.com/docs/api/explorer/open-api')
+          .then(response => response.json())
+          .then(data => {
+            console.log(data);
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+    </script>
+  });
+});
+  
+
+
+</script>
+</html>
